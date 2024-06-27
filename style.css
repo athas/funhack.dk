@@ -1,0 +1,41 @@
+html {
+  background-color: yellow;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to bottom, white 95px, yellow 400px);
+  background-repeat: no-repeat;
+  font-family: 'Fira Sans', sans;
+  font-size: 1.5em;
+}
+
+header {
+  padding-top: 10px;
+  height: 85px;
+  background-color: white;
+  background-image: url('img/funhack-logo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+article {
+  padding: 10px;
+}
+
+h2 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+}
+
+time {
+  font-weight: bold;
+}
