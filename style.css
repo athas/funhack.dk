@@ -39,24 +39,3 @@ ul {
 time {
   font-weight: bold;
 }
-
-#construction {
-  position: fixed;
-  animation: construction 3s infinite;
-  bottom: 0;
-}
-
-@keyframes construction {
-  0% {
-    right: 0;
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(360deg);
-    left: 0;
-  }
-  100% {
-    transform: rotate(0deg);
-    right: 0;
-  }
-}
